@@ -14,7 +14,7 @@ public class RaceCar {
 	/**
 	 * 
 	 * @param brand Brand of race car
-	 * @param positionInRace Position of race car in the race
+	 * @param positionInRace Position of race car in the reac
 	 */
 	public RaceCar(String brand, int positionInRace) {
 		System.out.println("Your " +brand +" race car has been created.");
