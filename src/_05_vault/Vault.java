@@ -1,7 +1,7 @@
 package _05_vault;
 
 public class Vault {
-int secretCode=1;
+int secretCode=5200000;
 
 public boolean tryCode(int code) {
 	if(code==secretCode) {
