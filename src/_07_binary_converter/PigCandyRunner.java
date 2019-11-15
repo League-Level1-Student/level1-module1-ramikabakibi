@@ -12,7 +12,8 @@ public class PigCandyRunner {
 		Pig Rasher=new Pig("Rasher", false);
 		System.out.println("Rasher will become bacon: "+Rasher.willBecomeBacon());
 		Pig Ziggy=new Pig("Ziggy", true);
-		System.out.println("Ziggy"+ Ziggy.baconDestiny(););//something wrong with this
+		System.out.print("Ziggy will become ");
+		Ziggy.baconDestiny();
 	}
 
 }
